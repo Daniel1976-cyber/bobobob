@@ -946,27 +946,14 @@
               return;
             }
 
-            const token = getToken();
-            if (!token) return alert('Debes iniciar sesión para importar productos');
-
-            const res = await fetch(API_BASE + '/import', {
-              method: 'POST',
-              headers: {
-                'Content-Type': 'application/json',
-                'Authorization': 'Bearer ' + token
-              },
-              body: JSON.stringify(products)
-            });
-
-            if (!res.ok) {
-              const errorText = await res.text();
-              throw new Error(errorText);
+            if (confirm(`Se han encontrado ${products.length} productos en el Excel. ¿Deseas añadirlos al catálogo actual?`)) {
+              catalogo = [...catalogo, ...products];
+              await saveToGitHub();
+              mostrarTabla();
+              renderProducts();
+              alert(`✓ Importación completada: ${products.length} productos añadidos.`);
             }
-            const result = await res.json();
-
-            alert(`✓ Importación completada\nProductos cargados: ${result.count}${result.rejected > 0 ? `\nRechazados: ${result.rejected}` : ''}${skipped > 0 ? `\nOmitidos: ${skipped}` : ''}`);
             input.value = '';
-            await fetchProducts();
           } catch (e) {
             alert('Error al importar: ' + e.message);
           }
