@@ -214,5 +214,240 @@
     "disponible": true,
     "img": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iI2Y1ZjFlOCIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMjQiIGZpbGw9IiM4YzVlNDYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuM2VtIj5TaW4gSW1hZ2VuPC90ZXh0Pjwvc3ZnPg==",
     "active": true
+  },
+  {
+    "id": 1768864166461.9045,
+    "nombre": "Hierba Buena",
+    "active": true
+  },
+  {
+    "id": 1768864166461.285,
+    "nombre": "Licra",
+    "active": true
+  },
+  {
+    "id": 1768864166461.2063,
+    "nombre": "Manzanilla",
+    "active": true
+  },
+  {
+    "id": 1768864166461.3452,
+    "nombre": "Chancletas",
+    "active": true
+  },
+  {
+    "id": 1768864166461.2295,
+    "nombre": "Tapasol",
+    "active": true
+  },
+  {
+    "id": 1768864166461.145,
+    "nombre": "Llave paso 1/2 Media Pulgada PVC",
+    "active": true
+  },
+  {
+    "id": 1768864166461.128,
+    "nombre": "Codo de 90 ° 1/2 Media Pulgada PVC",
+    "active": true
+  },
+  {
+    "id": 1768864166461.3025,
+    "nombre": " Media Pulgada PVCCodo de 45 ° 1/2",
+    "active": true
+  },
+  {
+    "id": 1768864166461.5796,
+    "nombre": "Nudo 1/2 Media Pulgada PVC",
+    "active": true
+  },
+  {
+    "id": 1768864166461.6301,
+    "nombre": "Te Media Pulgada PVC",
+    "active": true
+  },
+  {
+    "id": 1768864166461.413,
+    "nombre": "Universal Media Pulgada PVC",
+    "active": true
+  },
+  {
+    "id": 1768864166461.9277,
+    "nombre": "Niple Media Pulgada PVC",
+    "active": true
+  },
+  {
+    "id": 1768864166461.6724,
+    "nombre": "Tapón Interno Media Pulgada PVC",
+    "active": true
+  },
+  {
+    "id": 1768864166461.965,
+    "nombre": "Tapón Externo Media Pulgada PVC",
+    "active": true
+  },
+  {
+    "id": 1768864166461.7776,
+    "nombre": "Llave paso 3/4",
+    "active": true
+  },
+  {
+    "id": 1768864166461.3232,
+    "nombre": "Codo de 90 ° 3/4",
+    "active": true
+  },
+  {
+    "id": 1768864166461.5452,
+    "nombre": "Codo de 45 ° 3/4",
+    "active": true
+  },
+  {
+    "id": 1768864166461.5425,
+    "nombre": "Nudo 3/4",
+    "active": true
+  },
+  {
+    "id": 1768864166461.017,
+    "nombre": "Te 3/4",
+    "active": true
+  },
+  {
+    "id": 1768864166461.4158,
+    "nombre": "Universal 3/4",
+    "active": true
+  },
+  {
+    "id": 1768864166461.1736,
+    "nombre": "Niple 3/4",
+    "active": true
+  },
+  {
+    "id": 1768864166461.6797,
+    "nombre": "Tapón Interno 3/4",
+    "active": true
+  },
+  {
+    "id": 1768864166461.8567,
+    "nombre": "Tapón Externo 3/4",
+    "active": true
+  },
+  {
+    "id": 1768864166461.8135,
+    "nombre": "Llave paso 1 pulgada",
+    "active": true
+  },
+  {
+    "id": 1768864166461.0378,
+    "nombre": "Codo de 90 ° 1 pulgada",
+    "active": true
+  },
+  {
+    "id": 1768864166461.5574,
+    "nombre": "Codo de 45 ° 1 pulgada",
+    "active": true
+  },
+  {
+    "id": 1768864166461.2651,
+    "nombre": "Nudo 1 pulgada",
+    "active": true
+  },
+  {
+    "id": 1768864166461.2156,
+    "nombre": "Te 1 pulgada",
+    "active": true
+  },
+  {
+    "id": 1768864166461.467,
+    "nombre": "Universal 1 pulgada",
+    "active": true
+  },
+  {
+    "id": 1768864166461.7654,
+    "nombre": "Niple  1 pulgada",
+    "active": true
+  },
+  {
+    "id": 1768864166461.9014,
+    "nombre": "Tapón Interno 1 pulgada",
+    "active": true
+  },
+  {
+    "id": 1768864166461.2856,
+    "nombre": "Tapón Externo 1 pulgada",
+    "active": true
+  },
+  {
+    "id": 1768864166461.5168,
+    "nombre": "Busing 1/2\" a 3/4\" ",
+    "active": true
+  },
+  {
+    "id": 1768864166461.925,
+    "nombre": "Busing 1/2\" a 1\"  ",
+    "active": true
+  },
+  {
+    "id": 1768864166461.5837,
+    "nombre": "Busing 3/4\" a 1\"    ",
+    "active": true
+  },
+  {
+    "id": 1768864166461.659,
+    "nombre": "Reducido1/2\" a 3/4\"  ",
+    "active": true
+  },
+  {
+    "id": 1768864166461.8315,
+    "nombre": "Reducido 1/2\" a 1\" ",
+    "active": true
+  },
+  {
+    "id": 1768864166461.0063,
+    "nombre": "Reducido 3/4\" a 1\"   ",
+    "active": true
+  },
+  {
+    "id": 1768864166461.4653,
+    "nombre": "Teflón ",
+    "active": true
+  },
+  {
+    "id": 1768864166461.4226,
+    "nombre": "Plastilina Epósica ",
+    "active": true
+  },
+  {
+    "id": 1768864166461.0505,
+    "nombre": "Llaves para Bebedero",
+    "active": true
+  },
+  {
+    "id": 1768864166461.5413,
+    "nombre": "Presillas Gas ",
+    "active": true
+  },
+  {
+    "id": 1768864166461.6902,
+    "nombre": "Manquera plástica (m) ",
+    "active": true
+  },
+  {
+    "id": 1768864166461.1892,
+    "active": true
+  },
+  {
+    "id": 1768864166461.015,
+    "active": true
+  },
+  {
+    "id": 1768864166461.0244,
+    "active": true
+  },
+  {
+    "id": 1768864166461.8914,
+    "active": true
+  },
+  {
+    "id": 1768864166461.2183,
+    "active": true
   }
 ]
