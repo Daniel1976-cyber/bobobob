@@ -1087,12 +1087,11 @@
         return;
       }
 
-      // Hay token, validarlo con el servidor
+      // Hay token, validarlo con GitHub
       try {
-        const res = await fetch(API_BASE + '/products?all=true', {
-          headers: {
-            'Authorization': 'Bearer ' + token
-          }
+        const config = getConfig();
+        const res = await fetch(`${config.API_URL}/repos/${config.REPO_OWNER}/${config.REPO_NAME}`, {
+          headers: { 'Authorization': `token ${token}` }
         });
 
         if (res.ok) {
@@ -1103,7 +1102,7 @@
           // Token inválido o expirado, limpiar y mostrar login
           setToken(null);
           updateAuthUI();
-          alert('Tu sesión ha expirado. Por favor inicia sesión nuevamente.');
+          // No mostrar alert intrusivo al cargar, solo pedir login
         }
       } catch (e) {
         // Error de conexión, pero si hay token guardado, intentar usarlo
