@@ -389,8 +389,8 @@
   </div>
 
   <script>
-    // Configuración para GitHub
-    const CONFIG = window.API_CONFIG;
+    // Configuración dinámica desde window.API_CONFIG
+    const getConfig = () => window.API_CONFIG || {};
     const IS_LOCAL = window.IS_LOCAL;
 
     let catalogo = [];
@@ -493,8 +493,8 @@
       }
 
       try {
-        // Intentar leer el repositorio para validar el token
-        const res = await fetch(`${CONFIG.API_URL}/repos/${CONFIG.REPO_OWNER}/${CONFIG.REPO_NAME}`, {
+        const config = getConfig();
+        const res = await fetch(`${config.API_URL}/repos/${config.REPO_OWNER}/${config.REPO_NAME}`, {
           headers: { 'Authorization': `token ${token}` }
         });
 
@@ -788,8 +788,10 @@
 
       const content = btoa(unescape(encodeURIComponent(JSON.stringify(catalogo, null, 2))));
 
+      const config = getConfig();
+
       try {
-        const res = await fetch(`${CONFIG.API_URL}/repos/${CONFIG.REPO_OWNER}/${CONFIG.REPO_NAME}/contents/${CONFIG.FILE_PATH}`, {
+        const res = await fetch(`${config.API_URL}/repos/${config.REPO_OWNER}/${config.REPO_NAME}/contents/${config.FILE_PATH}`, {
           method: 'PUT',
           headers: {
             'Authorization': `token ${token}`,
