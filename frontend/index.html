@@ -347,7 +347,8 @@
     /* ----------  CONFIG / DATOS INICIALES  ---------- */
     // Auto-detect server URL based on current location
     // Usar configuración automática desde config.js
-    const API_BASE = window.API_CONFIG.API_BASE;
+    // Configuración desde config.js
+    const IS_LOCAL = window.IS_LOCAL;
 
     // Log the detected API base for debugging
     console.log('API Base detected:', API_BASE, '| Host:', window.location.hostname);
