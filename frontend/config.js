@@ -1,8 +1,8 @@
 // Configuración simplificada para GitHub
 const CONFIG = {
   github: {
-    REPO_OWNER: 'TU_USUARIO_GITHUB', // El usuario debe cambiar esto
-    REPO_NAME: 'NOMBRE_REPOSITORIO',  // El usuario debe cambiar esto
+    REPO_OWNER: 'Daniel1976-cyber', // El usuario debe cambiar esto
+    REPO_NAME: 'DeFrank1',  // El usuario debe cambiar esto
     FILE_PATH: 'frontend/data/catalog.json',
     API_URL: 'https://api.github.com'
   },
