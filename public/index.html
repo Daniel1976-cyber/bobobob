@@ -367,7 +367,7 @@
 
     // Carga catálogo desde el archivo JSON (directo de GitHub o local)
     async function loadCatalogFromServer() {
-      const path = window.IS_LOCAL ? 'data/catalog.json' : 'data/catalog.json?t=' + Date.now();
+      const path = window.IS_LOCAL ? '../src/data/catalog.json' : '../src/data/catalog.json?t=' + Date.now();
 
       try {
         const res = await fetch(path);
