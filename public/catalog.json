@@ -6,7 +6,7 @@
     "precio": 125,
     "categoria": "Plantas Aromáticas y Medicinales",
     "disponible": true,
-    "img": "data/images/1766144064104-5sh6ap.jpg"
+    "img": "public/assets/images/1766144064104-5sh6ap.jpg"
   },
   {
     "active": true,
@@ -15,7 +15,7 @@
     "precio": 26,
     "categoria": "Ropa de Mujer",
     "disponible": true,
-    "img": "data/images/1765065557854-85oz8f.jpg"
+    "img": "public/assets/images/1765065557854-85oz8f.jpg"
   },
   {
     "active": true,
@@ -24,7 +24,7 @@
     "precio": 610,
     "categoria": "Plomería PVC",
     "disponible": true,
-    "img": "data/images/1765065584850-a6lkwy.webp"
+    "img": "public/assets/images/1765065584850-a6lkwy.webp"
   },
   {
     "active": true,
