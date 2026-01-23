@@ -60,7 +60,7 @@
     "precio": 290,
     "categoria": "",
     "disponible": true,
-    "img": "data/images/1765067193498-vqrrl4.webp"
+    "img": "public/assets/images/1765067193498-vqrrl4.webp"
   },
   {
     "active": true,
