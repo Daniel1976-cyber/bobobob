@@ -8,7 +8,7 @@ const CONFIG = {
   },
   local: {
     USE_LOCAL_JSON: true,
-    CATALOG_PATH: 'public/catalog.json'
+    CATALOG_PATH: 'public/assets/catalog.json'
   }
 };
 
