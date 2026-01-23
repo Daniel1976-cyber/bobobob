@@ -186,7 +186,7 @@
     "precio": 75,
     "categoria": "Plantas Aromáticas y Medicinales",
     "disponible": true,
-    "img": "data/images/1765938910981-we0ceh.jpeg"
+    "img": "public/assets/images/1765938910981-we0ceh.jpeg"
   },
   {
     "active": true,
