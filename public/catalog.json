@@ -51,7 +51,7 @@
     "precio": 150,
     "categoria": "Plomería PVC",
     "disponible": true,
-    "img": "data/images/1765065720813-5zul0u.webp"
+    "img": "public/assets/images/1765065720813-5zul0u.webp"
   },
   {
     "active": true,
