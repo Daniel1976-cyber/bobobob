@@ -69,7 +69,7 @@
     "precio": 350,
     "categoria": "",
     "disponible": true,
-    "img": "data/images/1765067249943-tb6yml.webp"
+    "img": "public/assets/images/1765067249943-tb6yml.webp"
   },
   {
     "active": true,
